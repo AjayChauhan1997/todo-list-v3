@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("partials/head.ejs") -%>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="site-tittle"><strong><i class="fa-regular fa-paper-plane"></i> Ajay</strong></div>
+            <div class="directoy"> <strong> Help</strong> </div>
+            <div class="hdroptions">
+                <form action="/" method="get">
+                    <button type="submit" class="btn">Home</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="helpdiv">
+            <h1 class="helph1">How to use the list</h1>
+            <ol>
+                <li> Type your to-do and hit enter or press + button to add to-do</li>
+                <li> Now your to-do is added in your list.</li>
+                <li> You are now ready to enter your to-do, repeated the above process
+                    to enter your new to-do.</li>
+                <li> If your task is completed check the checkbox provided before your to-do,
+                    if you do so your corresponding to-do will be deleted.</li>
+            </ol>
+
+        </div>
+
+        <div class="helpdiv">
+
+
+
+            <h1 class="helph1">How to delete a to-do from the list</h1>
+            <ul>
+                <li>If you want to delete or your task is completed check the checkbox provided before your to-do, if
+                    you do so your
+                    Corresponding to-do will be deleted.</li>
+            </ul>
+        </div>
+
+
+        <div class="helpdiv" >
+            <h1 class="helph1">How to add new list</h1>
+            <ol>
+                <li> To add a new list you need to append the list name to the URL followed by "/"
+                    For example if you want to add list for work then your url will be http://localhost:3000/Work and
+                    hit enter.</li>
+                <li> Now your new to-do list is created under the name of work. </li>
+                <li> To add and remove to-do in list see the "How to use the list" and "How to delete a to-do from the
+                    list"
+                    Articles provided at the starting of this help page. </li>
+            </ol>
+            <h2>Note:</h2>
+            <ul>
+                <li>https://warm-harbor-12968.herokuapp.com//Work</li>
+                <li>https://warm-harbor-12968.herokuapp.com//WORK </li>
+                <li>https://warm-harbor-12968.herokuapp.com//work</li>
+            </ul>
+            <p>All are considered as the same directory or list and serve the same corresponding list under that name.
+            </p>
+
+
+
+        </div>
+
+<div class="helpdiv">
+
+<h1 class="helph1">For more details contact to the developer</h1>  <h2> Contact:</h2>      
+     <ul><li>Name: Ajay Kumar Chauhan</li> 
+        <li> Email: ajay1997.official@gmail.com</li>  </ul> 
+        
+
+
+    </div>
+    </main>
+
+
+
+    <footer>
+        <%- include("partials/footer.ejs") -%>
+    </footer>
+</body>
+
+</html>
